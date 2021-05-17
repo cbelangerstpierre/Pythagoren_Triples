@@ -8,7 +8,7 @@ def get_pythagorean_triples(n):
 
     max_i = range(1, n + 1)
     for i in max_i:
-        max_j = range(1, round(i * (2 * i / 3))
+        max_j = range(1, round(i * (2 * i / 3)))
         for j in max_j:
             c_length = math.sqrt(i ** 2 + j ** 2)
             if c_length == round(c_length):
